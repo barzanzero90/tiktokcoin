@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    overflow-x: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url("/img/tik-tok.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    width: 670px;
+    height: 150px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#container h3 span {
+    color: orangered;
+}
+
+#container input {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid rgb(39, 38, 38);
+}
+
+#container button {
+    background-color: #210EF4;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#ourservices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    width: 400px;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+#ourservices p {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#ourservices p span {
+    color: orangered;
+    font-weight: bolder;
+}
